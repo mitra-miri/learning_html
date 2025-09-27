@@ -5,14 +5,14 @@
     </head> 
     <body>
         <form>
-            <label style="size: 31; "><b>Name:</b></label>
+            <label style="font-size: 31; "><b>Name:</b></label>
             <input type="text" placeholder="Enter Your Name">
 
             <br>
             <br>
 
-            <label style="size: 31; "><b>Email</b>:</label>
-            <input type="email" placeholder="like:you@gmail.com"
+            <label style="font-size: 31; "><b>Email</b>:</label>
+            <input type="email" placeholder="like:you@gmail.com">
 
             <br>
             <br>
@@ -20,7 +20,7 @@
             <br>
 
             
-            <label style="size: 31; "><b>Gender</b></label>
+            <label style="font-size: 31; "><b>Gender</b></label>
             <br>
              <label>
                 <input type="radio" name="gender" value="Male">Male
@@ -38,7 +38,9 @@
              <br>
 
             
-             <label style="size: 31; "><b>Your Skills</b></label>
+             <label style="font-size: 31; "><b>Your Skills</b></label>
+             <!-- سایز فونت! -->
+
              <br>
              <label>
                 <input type="checkbox">Graphic Design
@@ -48,9 +50,8 @@
                 <input type="checkbox">Programming
              </label>
 
-              <label>
-                <input type="checkbox">Creativity
-             </label>
+              <input type="checkbox" id="Creativity">Creativity
+              <label for="Creativity" >Creativity</label>
 
              <br>
 
@@ -69,15 +70,15 @@
              <br>
              <br>
 
-             <label style="size: 31; "><b>Describe your strengths briefly:</b></label>
+             <label style="font-size: 31; "><b>Describe your strengths briefly:</b></label>
              <br>
-             <textarea></textarea>
+             <textarea name="strengths briefly"></textarea>
 
              <br>
              <br>
 
-             <label style="size: 31; "><b>country</b></label>
-             <select>
+             <label style="font-size: 31; "><b>country</b></label>
+             <select name="country">
                 <option>Iran</option>
                 <option>Germany</option>
                 <option>United States </option>
@@ -94,3 +95,7 @@
         </form>
     </body>       
 </html>
+
+<!--لیبل مدل دوم اصولی تره-->
+<!-- استفاده از name در همه ورودی ها!-->
+
