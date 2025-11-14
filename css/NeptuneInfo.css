@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+.shadow{
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 20px rgb(180, 180, 235);
+    border-radius: 17px;
+    padding: 10px 0;
+
+}
+.Neptune{
+    color: #c1e4e1;
+    background-color: black;
+    max-width: 70%;
+    
+    
+    margin: auto;
+
+    /* Add padding to prevent box-shadow from sticking too closely to the paragraphs */
+    padding: 20px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* Apply border-radius to make the box-shadow rounded instead of having sharp corners */
+    border-radius: 17px;
+
+    box-shadow: 0 0 20px rgb(180, 180, 235);
+}
+
+.Neptune img {
+    /* Set max-width to prevent the image from overflowing the shadow box on smaller screens */
+    max-width: 100%;
+    border-radius: 20px;
+    width:300px;
+}    
+
+.Neptune a{
+    color: #353b57;
+    text-decoration-style: dotted;
+}
+
+.Neptune a:hover{
+    color: #fffdfd;
+}
+
+
+
+
