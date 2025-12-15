@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+body{
+    background-color: rgb(34, 17, 17);
+    color: rgb(163, 158, 149);
+    font-size:25px;
+    font-family: 'Agbalumo', display;
+   
+}
+
+.container{
+    margin: 20px;
+    padding: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 15px;
+
+}
+
+.img{
+    align-content: center;
+}
+
+@media (max-width:700px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .img{
+        margin: auto;
+    }
+    .text{
+        text-align: center;
+    }
+
+    
+}
