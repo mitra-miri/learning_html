@@ -1,0 +1,48 @@
+
+body{
+    font-family:inherit;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    margin: 50px 50px;
+    padding: 40px 40px;
+    border: 2px dashed rgb(202, 162, 125);
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 500px;
+    max-width: 80%;
+    
+}
+
+#choices button{
+    width: 100%;
+    color: rgb(115, 165, 208);
+    margin: 5px;
+    
+}
+
+#choices button:hover{
+    cursor: pointer;
+    transform: scale(1.19);
+    transition: 0.5s ease;
+}
+
+.selectedBtn{
+    background-color: rgb(172, 150, 117);
+}
+button{
+    border-radius: 12px;
+    height: 40px;
+    border: 2px solid rgb(202, 162, 125);
+    background-color: rgb(240, 241, 210);
+    color: rgb(202, 162, 125);
+    font-weight: bold;
+    margin-top: 10px;
+ 
+}
+
+
