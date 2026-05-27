@@ -1,0 +1,38 @@
+body {
+    background-image: url('./img/9f7d61675b60e6bcd130c61f7b424992.jpg');
+    background-size: cover;          
+    background-position: center;      
+    background-attachment: fixed;     
+    background-repeat: no-repeat;     
+    margin: 0;
+    padding: 0; 
+}
+
+#dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: 0 auto;  
+    border-radius: 15px;  
+    padding: 20px;  
+    margin-top: 50px;  
+    box-shadow: inset 0 0 18px rgba(43, 40, 57, 0.989);
+}
+
+#city-input{
+    border-radius: 2px;
+    height: 25px;
+    color: #7178d7;
+    border: 2px solid #988cb7;
+    width: 300px;
+}
+
+#Search-btn{
+    border-radius: 2px;
+    height: 30px;
+    color: #7178d7;
+    border: 2px solid #988cb7;
+    
+}

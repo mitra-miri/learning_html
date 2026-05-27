@@ -34,6 +34,30 @@ body{
 .selectedBtn{
     background-color: rgb(172, 150, 117);
 }
+
+#submit-btn:hover{
+    cursor: pointer;
+    
+}
+#submit-btn:active{
+    background-color: #53473b;
+}
+
+.score{
+    text-align: center;
+    color: rgb(166, 146, 115);
+}
+
+li{
+    border: solid rgb(166, 140, 116);
+    padding: 7px;
+    margin: 7px;
+    list-style: none;
+    border-radius: 13px;
+    background-color: #5c534d;
+    color: #ffffff;
+}
+
 button{
     border-radius: 12px;
     height: 40px;
@@ -45,4 +69,16 @@ button{
  
 }
 
-
+h6{
+    text-align: center;
+    padding-bottom: -3;
+    margin-bottom: -5px;
+}
+.wrong-style{
+    color: #d77171;
+    font-weight: bold;
+}
+.correct-style{
+    color: #459569;
+    font-weight: bold;
+}
