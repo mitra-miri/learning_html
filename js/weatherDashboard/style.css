@@ -12,27 +12,110 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(249, 249, 249);
     width: 500px;
     margin: 0 auto;  
     border-radius: 15px;  
-    padding: 20px;  
+    padding: 40px;  
     margin-top: 50px;  
-    box-shadow: inset 0 0 18px rgba(43, 40, 57, 0.989);
-}
-
-#city-input{
-    border-radius: 2px;
-    height: 25px;
-    color: #7178d7;
-    border: 2px solid #988cb7;
-    width: 300px;
-}
-
-#Search-btn{
-    border-radius: 2px;
-    height: 30px;
-    color: #7178d7;
-    border: 2px solid #988cb7;
     
 }
+
+h1{
+    color:#433e7e;
+}
+
+#Search-container {
+    display: flex;
+}
+
+#city-input {
+    border-radius: 25px 0 0 25px;
+    width: 250px;
+    height: 40px;
+    color: #050537;
+    border: none;
+    flex-grow: 1;  
+    background-color: #e6dbf4;
+    padding: 0 15px;
+}
+
+#Search-btn {
+    border-radius: 0 25px 25px 0;
+    height: 40px;
+    width: 100px;
+    color: #151628;
+    border: none;
+    cursor: pointer;
+    background-color: #9b5edc;
+    transition: all 0.3s ease;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Search-btn:hover{
+    background-color: #433e7e;
+}
+
+
+#city-input:focus {
+  outline: none;
+  background-color: #d9ceea;
+  
+}
+
+#result-container{
+    background-color: #f2eff6;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 340px;
+}
+
+.hidden{
+    display: none;
+}
+
+#error{
+    color: #bc2d2d;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 600px) {
+    
+    #dashboard-container {
+        width: 70%;          
+    }
+    h1{
+        font-size: 17px;
+    }
+    
+    #Search-btn{
+        width: 50px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    #city-input{
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+    }
+    #result-container{
+        width: 150px;
+        font-size: 12px;
+    }
+    #error{
+        font-size: 10px;
+    }
+    
+}
+
